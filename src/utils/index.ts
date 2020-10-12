@@ -1,3 +1,5 @@
+
+import React from 'react';
 import { MAX_COLS, MAX_ROWS, NO_OF_BOMBS } from "../constants";
 import { CellValue, CellState, Cell } from "../types";
 
@@ -98,3 +100,4 @@ export const generateCells = (): Cell[][] => {
 
   return cells;
 };
+
